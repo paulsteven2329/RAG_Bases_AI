@@ -1,0 +1,23 @@
+Core Concepts of AI
+AI is based on core concepts and technologies that enable machines to learn, reason and make decisions on their own. Let's see some of the concepts:
+
+1. Machine Learning (ML)
+Machine Learning is a subset of artificial intelligence (AI) that focuses on building systems that can learn from and make decisions based on data. Instead of being explicitly programmed to perform a task, a machine learning model uses algorithms to identify patterns within data and improve its performance over time without human intervention.
+
+2. Generative AI
+Generative AI is designed to create new content whether it's text, images, music or video. Unlike traditional AI which typically focuses on analyzing and classifying data, it goes a step further by using patterns it has learned from large datasets to generate new original outputs. It "creates" rather than just "recognizes."
+
+3. Natural Language Processing (NLP)
+Natural Language Processing (NLP) allows machines to understand and interact with human language in a way that feels natural. It enables speech recognition systems like Siri or Alexa to interpret what we say and respond accordingly. It combines linguistics and computer science to help computers process, understand and generate human language allowing for tasks like language translation, sentiment analysis and real-time conversation.
+
+4. Expert Systems
+Expert Systems are designed to simulate the decision-making ability of human experts. These systems use a set of predefined "if-then" rules and knowledge from specialists in specific fields to make informed decisions similar to how a medical professional would diagnose a disease. They are useful in areas where expert knowledge is important but not always easily accessible.
+
+Working of Artificial Intelligence
+AI works by simulating intelligent behavior to perform tasks autonomously. The process involves several steps that help machines learn, make decisions and improve over time:
+
+Data Collection: AI systems rely on large sets of data which could include images, text or sensor readings. For example, teaching an AI to recognize cats, we collect a dataset of labeled cat images.
+Processing and Learning: It uses algorithms to analyze data and identify patterns. For example, it learns to recognize key features like a cat’s shape, ears or whiskers helping it understand the data.
+Model Training: The AI model is trained using the data, adjusting its internal settings to improve its predictions. With more data, the model becomes more accurate and better at recognizing new examples like unseen images of cats.
+Decision Making: Once trained, it can use what it has learned to make decisions. For example, it can find whether a new image contains a cat based on the patterns it learned during training.
+Feedback and Improvement: It can improve through feedback, especially in methods like reinforcement learning. In this case, the AI receives rewards or penalties, refining its ability to make better decisions over time.

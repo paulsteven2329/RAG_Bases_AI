@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tesla RAG — Ask Your Documents</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tesla RAG</h1>
+      <p>Ask questions about your uploaded documents</p>
+    </header>
+
+    <!-- Upload Section -->
+    <section class="upload-section">
+      <div class="upload-box" id="dropZone">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <p>Drop files here or <span class="link">click to upload</span></p>
+        <input type="file" id="fileInput" multiple accept=".txt,.pdf,.docx" hidden />
+      </div>
+      <button id="ingestBtn" class="btn-primary" disabled>
+        <span class="spinner" id="spinner"></span>
+        Start Ingestion
+      </button>
+      <p id="uploadStatus" class="status"></p>
+    </section>
+
+    <!-- Chat Section -->
+    <section class="chat-section">
+      <div id="chatMessages" class="chat-messages"></div>
+      <div class="input-area">
+        <input type="text" id="questionInput" placeholder="Ask a question about the document..." />
+        <button id="sendBtn" class="btn-send">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
